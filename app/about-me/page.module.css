@@ -1,0 +1,10 @@
+/* app/about-me/page.module.css */
+
+.link {
+    color: #336699;
+    text-decoration: underline;
+}
+
+.link:hover {
+    text-decoration: none;
+}
