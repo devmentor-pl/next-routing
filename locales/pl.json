@@ -1,0 +1,6 @@
+{
+    "CartPage": {
+        "welcome": "Witaj w naszej aplikacji!",
+        "cart": "Masz {count} produkt(ów) w koszyku."
+    }
+}

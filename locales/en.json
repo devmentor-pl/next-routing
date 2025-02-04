@@ -1,0 +1,6 @@
+{
+    "CartPage": {
+        "welcome": "Welcome to our application!",
+        "cart": "You have {count} item(s) in your cart."
+    }
+}
