@@ -7,10 +7,10 @@ import { getMessages } from 'next-intl/server';
 
 interface LocaleProps {
     children: React.ReactNode, 
-    // params: { locale: string },
+    // params: Promise<{ locale: string }>,
 }
 
-export default async function LocaleLayout({ children }: LocaleProps) {
+export default async function LocaleLayout({ children, /* params */ }: LocaleProps) {
     // const { locale } = await params;
 
     // Wczytujemy plik tłumaczeń
