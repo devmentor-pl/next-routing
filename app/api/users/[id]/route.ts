@@ -6,7 +6,7 @@ const users = [
 ];
 
 interface UsersParams {
-    params: {id: string},
+    params: Promise<{id: string}>,
 }
 // ...
 export async function GET(req: Request, { params }: UsersParams) {
