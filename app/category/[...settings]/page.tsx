@@ -9,7 +9,7 @@ const list = [
 ]
 
 interface CategoryProps { 
-    params: { settings: string[] } 
+    params: Promise<{ settings: string[] }>
 }
 
 // ...
